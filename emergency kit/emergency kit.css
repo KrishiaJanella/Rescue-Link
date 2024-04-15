@@ -1,0 +1,253 @@
+/* navigation bar */
+
+.navigation{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #81535D;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: space-between;
+    z-index: 9999;
+    
+}
+#navButtons{
+    display: flex;
+    margin-top: 15px;
+}
+
+#navButtons a:hover{
+    color: #FF9C00;
+}
+.reg a{
+    margin-right: 40px;
+    margin-top: 50px;
+    color: #F6EED6;
+    font-family: "Barlow";                                 
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+.hotline{
+    margin-right: 50px;
+}
+.hotline a{
+    
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #F6EED6;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-top: 50px;
+    color: #81535D;
+    font-family: "Barlow", sans-serif;                                     
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.logo{
+    display: flex;
+    
+}
+.logo h1,a{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    color:#F6EED6;
+    line-height: 10px;
+    text-decoration: none;
+    
+}
+
+/*end  navigation bar */
+
+
+
+.page1{
+    
+    margin-top: 0px;
+    background-image: url('assets/5.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+
+}
+.title{
+    z-index: 1;
+}
+.title img{
+    position: static;
+    width: 100%;
+    height: 100vh;
+   
+}
+.title h1{
+    position:absolute;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 60px;
+    margin-top: 180px;
+    margin-left: 30%;
+    color: #fff;
+    text-shadow: 2px 2px #98727a ;
+    text-align: center;
+}
+.title h3{
+    position: absolute;
+    font-family: "Barlow";
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 40%;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 1px 1px #98727a ;
+    
+}
+
+
+.prepare{
+    margin-top: 100px;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F6EED6;
+    background-size: center;
+}
+.page2 h1{
+    color: #FF9C00;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+
+
+
+.footer{
+    margin-top: 0px;
+    background-image: url('assets/image.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+
+}
+.footlogo{
+    position: absolute;
+    height: auto;
+    width: 50px;
+    margin-top: -900px;
+}
+.shape{
+    position: static;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+.testimonial h1{
+    text-align: center;
+}
+.conttestimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conttestimonial div{
+    width: 50%;
+}
+
+.conttestimonial img{
+    width: 400px;
+    margin-left: 50px;
+}
+
+.conttestimonial p{
+    font-family: "Barlow";
+    font-size: 15px;
+    line-height: 30px;
+    color: #81535D;
+    text-align: justify;
+    
+}
+
+.conttestimonial h1{
+    color: #FF9C00;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+
+.conttestimonial h4{
+    color: #FF9C00;
+    font-family: "Barlow";
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+
+
+.buttonhorizontal{
+    display: flex;
+}
+.buttonhorizontal img{
+    width: 100px;
+    margin: 15px;
+}
+
+.contdisaster{
+    margin: 100px 0 ;
+}
+.contdisaster .buttonhorizontal a img {
+    transition: transform 0.3s ease; 
+}
+
+.contdisaster .buttonhorizontal a:hover img {
+    transform: scale(1.1);
+}
+
+
+.prepare p {
+    font-family: "Barlow";
+    font-size: 15px;
+    line-height: 30px;
+    color: #81535D;
+    text-align: justify;
+    
+}
+
+.prepare h1{
+    color: #FF9C00;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.prepare1{
+    margin: 0 100px;
+    justify-content: center;
+}
