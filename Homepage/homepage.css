@@ -1,0 +1,369 @@
+/* navigation bar */
+
+.navigation{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #81535D;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: space-between;
+    z-index: 9999;
+    
+}
+#navButtons{
+    display: flex;
+    margin-top: 15px;
+}
+
+#navButtons a:hover{
+    color: #FF9C00;
+}
+.reg a{
+    margin-right: 40px;
+    margin-top: 50px;
+    color: #F6EED6;
+    font-family: "Barlow";                                 
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+.hotline{
+    margin-right: 50px;
+}
+.hotline a{
+    
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #F6EED6;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-top: 50px;
+    color: #81535D;
+    font-family: "Barlow", sans-serif;                                     
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.logo{
+    display: flex;
+}
+.logo h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    color:#F6EED6;
+    line-height: 10px;
+}
+
+
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+/*end  navigation bar */
+
+
+
+.page1{
+    
+    margin-top: 0px;
+    background-image: url('assets/1.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+
+}
+.title{
+    z-index: 1;
+}
+.title img{
+    position: static;
+    width: 100%;
+    height: 100vh;
+   
+}
+.title h1{
+    position:absolute;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 60px;
+    margin-top: 180px;
+    margin-left: 47%;
+    color: #fff;
+    text-shadow: 2px 2px #98727a ;
+
+}
+.title h3{
+    position: absolute;
+    font-family: "Barlow";
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 40%;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 1px 1px #98727a ;
+    
+}
+
+.mission{
+    text-align: center;
+    font-family: "Barlow";
+    margin: 0 20%;
+    font-size: 20px;
+    line-height: 30px;
+    color: #81535D;
+}
+
+.colored{
+    color: #FF9C00;
+}
+
+.textcont{
+    
+    background-color: #fff;
+    height: 150px;
+    width: 190px;
+    padding: 15px;
+    margin: -5px 0;
+}
+.textcont h3{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #81535D;
+    margin: 0;
+}
+
+.textcont p{
+    font-family: "Barlow";
+    font-size: 9px;
+    color: #81535D;
+    margin-bottom: 10px;
+
+}
+
+.textcont h4,a{
+    font-family: "Barlow";
+    font-size: 12px;
+    color: #FF9C00;
+    text-align: center;
+    text-decoration: none;
+}
+.container img{
+    width: 220px;
+    height: auto;
+    margin-bottom: 0;
+    
+}
+
+.container{
+    margin: 0 50px;
+    box-shadow: 2px 2px 5px #c8babe;
+    
+
+}
+.contbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.page3{
+    position: relative;
+    background-image: url('assets/5.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+
+}
+.page3 img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.contpage3{
+    position: absolute;
+    width: 100%;
+    
+}
+
+.contpage3 h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 2px #98727a ;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.buttonhorizontal img{
+    height: auto;
+    width: 85px;
+}
+.buttonhorizontal a img {
+    transition: transform 0.3s ease; 
+}
+
+.buttonhorizontal a:hover img {
+    transform: scale(1.1);
+}
+
+.buttonhorizontal{
+    position: static;
+    display: flex;
+    margin-bottom: 130px;
+    justify-content: center;
+    margin-left: -100px;
+    
+    
+}
+.buttonhorizontal div{
+    margin: 0  60px;
+   
+}
+
+
+.footer{
+    margin-top: 0px;
+    background-image: url('assets/17.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+
+}
+.footlogo{
+    position: absolute;
+    height: auto;
+    width: 50px;
+    margin-top: -900px;
+}
+.shape{
+    position: static;
+    width: 100%;
+    height: 100vh;
+}
+
+.header h1{
+    color: #FF9C00;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 45px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.testimonial h1{
+    text-align: center;
+}
+.conttestimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conttestimonial div{
+    width: 50%;
+}
+
+.conttestimonial img{
+    width: 300px;
+}
+
+.conttestimonial p{
+    font-family: "Barlow";
+    font-size: 20px;
+    line-height: 30px;
+    color: #81535D;
+    
+}
+
+.conttestimonial h1{
+    color: #FF9C00;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+
+.conttestimonial h4{
+    color: #FF9C00;
+    font-family: "Barlow";
+    font-size: 20px;
+    font-weight: 300;
+    
+}
