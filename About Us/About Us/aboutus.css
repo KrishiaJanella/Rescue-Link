@@ -11,7 +11,9 @@
     justify-content: space-between;
     z-index: 9999;
 }
-
+.colored{
+    color: #FF9C00;
+}
 #navButtons {
     display: flex;
     margin-top: 15px;
