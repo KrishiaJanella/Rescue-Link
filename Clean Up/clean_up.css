@@ -17,6 +17,7 @@
 #navButtons{
     display: flex;
     margin-top: 15px;
+    
 }
 
 #navButtons a:hover{
@@ -74,6 +75,14 @@
     background-color: #F6EED6;
     background-size: center;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    overflow-x: hidden;
+}
+
 .page1{
     background-image: url('clean_up_assets/25.png');
     margin-top: 0px;
@@ -85,6 +94,7 @@
     background-repeat: no-repeat;
     background-color: #F6EED6;
     background-size: center;
+    
 
 }
 
@@ -115,15 +125,15 @@
 }
 
 .page4{
-    margin-top: 60px;
-    background-image: url('clean_up_assets/28.png');
+    background-image: url('clean_up_assets/fake.png');
+    margin-top: 0px;
     background-attachment: fixed;
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(66, 57, 57, 0.692);
+    background-color: #F6EED6;
     background-size: center;
 }
 
@@ -266,10 +276,7 @@
     padding-right: 40px;
 }
 
-.page4 img{
-    width: 25px;
-    height: 25px;
-}
+
 
 .title{
     z-index: 1;
