@@ -1,0 +1,370 @@
+/* navigation bar */
+
+.navigation{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #81535D;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: space-between;
+    z-index: 9999;
+    
+}
+#navButtons{
+    display: flex;
+    margin-top: 15px;
+}
+
+#navButtons a:hover{
+    color: #FF9C00;
+}
+.reg a{
+    margin-right: 40px;
+    margin-top: 50px;
+    color: #F6EED6;
+    font-family: "Barlow";                                 
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+.hotline{
+    margin-right: 50px;
+}
+.hotline a{
+    
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #F6EED6;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-top: 50px;
+    color: #81535D;
+    font-family: "Barlow", sans-serif;                                     
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.logo{
+    display: flex;
+}
+.logo h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    color:#F6EED6;
+    line-height: 10px;
+}
+/*end  navigation bar */
+
+.title{
+    margin-top: 0px;
+    background-image: url('clean_up_assets/18.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F6EED6;
+    background-size: center;
+}
+.page1{
+    background-image: url('clean_up_assets/25.png');
+    margin-top: 0px;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F6EED6;
+    background-size: center;
+
+}
+
+.page2{
+    margin-top: 150px;
+    background-image: url('clean_up_assets/21.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+
+.page3{
+    margin-top: 60px;
+    background-image: url('clean_up_assets/26.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+
+.page4{
+    margin-top: 60px;
+    background-image: url('clean_up_assets/28.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+
+
+.what{
+    color: #FF9C00;
+    font-family: "Barlow", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: -180px;
+    font-weight: 500;
+}
+
+.germs{
+    color: #FF9C00;
+    font-family: "Barlow", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: -585px;
+    margin-left: -780px;
+    font-weight: 500;
+}
+
+.child{
+    color: #FF9C00;
+    font-family: "Barlow", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: -550px;
+    margin-left: -780px;
+    font-weight: 500;
+}
+
+.child_label{
+    color: #81535D;
+    font-family: "Barlow", sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: -120px;
+    margin-left: 70px;
+    padding-left: 500px;
+    padding-right: 40px;
+    font-weight: 500;
+}
+
+.child_text{
+    color: #81535D;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-left: 500px;
+    padding-right: 40px;
+}
+
+.ally{
+    color: #81535D;
+    font-family: "Barlow", sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: -70px;
+    margin-left: 70px;
+    padding-left: 500px;
+    padding-right: 40px;
+    font-weight: 500;
+}
+
+.ally_text{
+    color: #81535D;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-left: 500px;
+    padding-right: 40px;
+}
+
+
+.what_text1{
+    color: #81535D;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: -610px;
+    padding-left: 500px;
+    padding-right: 40px;
+}
+
+.what_text2{
+    color: #81535D;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 60px;
+    padding-left: 500px;
+    padding-right: 40px;
+}
+
+.what_text3{
+    color: #81535D;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 60px;
+    padding-left: 500px;
+    padding-right: 40px;
+}
+
+.what_text4{
+    color: #81535D;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 70px;
+    padding-left: 500px;
+    padding-right: 40px;
+}
+
+.what_text5{
+    color: #81535D;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 90px;
+    padding-left: 500px;
+    padding-right: 40px;
+}
+
+.page4 img{
+    width: 25px;
+    height: 25px;
+}
+
+.title{
+    z-index: 1;
+}
+.title img{
+    position: static;
+    width: 100%;
+    height: 100vh;
+   
+}
+.title h1{
+    position:absolute;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 175px;
+    margin-left: 500px; 
+    color: #fff;
+    text-shadow: 2px 2px #98727a ;
+
+}
+
+
+.title h3{
+    position: absolute;
+    font-family: "Barlow";
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 40%;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 1px 1px #98727a ;
+    
+}
+
+.mission{
+    text-align: justify;
+    font-family: "Barlow";
+    margin-top: -200px;
+    margin-left: 475px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #81535D;
+}
+
+.colored{
+    color: #FF9C00;
+}
+
+.textcont{
+    
+    background-color: #fff;
+    height: 150px;
+    width: 190px;
+    padding: 15px;
+    margin: -5px 0;
+}
+.textcont h3{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #81535D;
+    margin: 0;
+}
+
+.textcont p{
+    font-family: "Barlow";
+    font-size: 9px;
+    color: #81535D;
+    margin-bottom: 10px;
+
+}
+
+.textcont h4{
+    font-family: "Barlow";
+    font-size: 12px;
+    color: #FF9C00;
+    text-align: center;
+}
+.container img{
+    width: 220px;
+    height: auto;
+    margin-bottom: 0;
+    
+}
+
+.container{
+    margin: 0 50px;
+    box-shadow: 2px 2px 5px #c8babe;
+    
+
+}
+.contbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
