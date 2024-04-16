@@ -124,19 +124,24 @@ body {
     background-size: center;
 }
 
-.page4{
-    background-image: url('clean_up_assets/fake.png');
+.footer{
     margin-top: 0px;
+    background-image: url('clean_up_assets/footer_bg.png');
     background-attachment: fixed;
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #F6EED6;
+    background-color: rgba(66, 57, 57, 0.692);
     background-size: center;
 }
 
+.shape{
+    position: static;
+    width: 100%;
+    height: 100vh;
+}
 
 .what{
     color: #FF9C00;
